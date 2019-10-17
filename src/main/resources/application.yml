@@ -1,0 +1,22 @@
+
+ # Banner
+spring:
+  datasource:
+   url: jdbc:mysql://localhost:3306/mydb2?useSSL=false
+   
+   username: root
+   password: root
+   
+  jpa:
+   show-sql: true
+   hibernate:
+    ddl-auto: update
+   
+   properties:
+     hibernate:
+       dialect: 
+       storage:
+       engine: innodb
+       
+     
+
